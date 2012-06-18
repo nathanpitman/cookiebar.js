@@ -1,7 +1,7 @@
 jQuery Cookiebar
 https://github.com/ninefour/cookiebar.js
 
-Cookiebar is a simple jQuery script which you can use to add an implied consent style bar to the top of your website. It's mildly responsive and minimises HTTP requests (it's just one file). It includes a dismiss button so users can prevent it from being displayed again. If you have any thoughts on how this could be improved please don't hesitate to let me know (nathan@ninefour.co.uk).
+Cookiebar is a tiny (3kb) little jQuery script which you can use to add an implied consent style bar to the top of your website. It's mildly responsive and minimises HTTP requests (it's just one file). It includes a dismiss button so users can prevent it from being displayed again. If you have any thoughts on how this could be improved please don't hesitate to let me know (nathan@ninefour.co.uk).
 
 *** Using Cookiebar ***
 
