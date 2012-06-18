@@ -1,17 +1,14 @@
 $(document).ready(function () {
   
 	/*!
-	 * jQuery Cookiebar Plugin
-	 * https://github.com/ninefour/jquery-cookiebar
+	 * jQuery Cookiebar
+	 * https://github.com/ninefour/cookiebar.js
 	 *
-	 * Copyright 2012, Klaus Hartl
-	 * Functions to write, read and delete cookies from the Cookie plug-in written by Klaus Hartl (https://github.com/carhartl/jquery-cookie)
-	 * Dual licensed under the MIT or GPL Version 2 licenses.
-	 * http://www.opensource.org/licenses/mit-license.php
-	 * http://www.opensource.org/licenses/GPL-2.0
+	 * Copyright 2012, Nathan Pitman
+	 * Functions to write and read cookies are from Quirksmode.org (http://www.quirksmode.org/js/cookies.html)
 	 */
 	
-	// Cookie Policy URL, change this to match the relative URL of your cookie policy file
+	// Cookie Policy URL (cp:url)
 	var cb_policy = $("meta[name=cp:url]").attr("content");
 	
 	// The markup for the cookie bar itself

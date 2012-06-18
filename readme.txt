@@ -1,3 +1,5 @@
+Cookie
+
 To use Cookie Bar simply add a link to the JavaScript to the bottom of your document (before the closing </body>):
 
 <script type="text/javascript" src="cookiebar.jquery.min.js"></script>
