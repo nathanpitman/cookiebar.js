@@ -10,6 +10,7 @@ $(document).ready(function () {
 	
 	// Cookie Policy URL (cp:url)
 	var cb_policy = $("meta[name=cp:url]").attr("content");
+	console.log(cb_policy);
 	
 	// The markup for the cookie bar itself
 	var cb_content = "<div id='cookiebar'><p>This website uses cookies. You can <a href='"+cb_policy+"'>change your cookie settings</a> to disable them, if not we'll assume that you are happy to receive all cookies.</p><button title='Dismiss'><span>Dismiss</span></button></div>";
