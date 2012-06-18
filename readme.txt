@@ -11,6 +11,6 @@ To use Cookiebar simply add a link to the JavaScript to the bottom of your docum
 
 …then add the following meta tag to your document head:
 
-<meta name="cb:url" content="/privacy-policy" />
+<link title="Cookie Policy" rel="cookie-policy" href="/cookie-policy" />
 
 Change the 'content' value of the meta tag to reflect the location of your privacy policy document. That's it - you're done!
