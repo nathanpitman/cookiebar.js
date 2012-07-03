@@ -28,8 +28,8 @@ $(document).ready(function () {
 		if (!cb_vis()) {
 			
 			// Append/prepend the cookiebar CSS and content to the document
-			var bodyMarginTop = parseInt($("body").css("margin-top")+38);
-			
+			var bodyMarginTop = parseInt($("body").css("margin-top"))+38;
+
 			// The markup for the cookie bar itself
 			var cb_html = "<div id='cb'><p>This website uses cookies. You can <a href='"+cb_policy+"'>change your cookie settings</a> to disable them. If you continue to browse our site, you are agreeing to our use of cookies.</p><button title='Dismiss'><span>Dismiss</span></button></div>";
 			
