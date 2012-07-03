@@ -34,11 +34,12 @@ $(document).ready(function () {
 		if (!cb_vis()) {
 			
 			// Append/prepend the cookiebar CSS and content to the document
-			var bodyMargin = parseInt($("body").css("margin-top")+38);
+			var bodyMarginTop = parseInt($("body").css("margin-top")+38);
 			var bodyBackgroundPosX = parseInt($("body").css("background-position-x"));
-			var bodyBackgroundPosY = parseInt($("body").css("background-position-y")+38);
+			var bodyBackgroundPosY = parseInt($("body").css("background-position-y"));
+			console.log(bodyMarginTop);
 			console.log(bodyBackgroundPosY);
-			$('body').css('margin-top',bodyMargin+'px !important');
+			$('body').css('margin-top',bodyMarginTop+'px !important');
 			$('body').css('backgroundPosition', bodyBackgroundPosX+'px '+bodyBackgroundPosY+'px')
 			
 			$('body').addClass('cb');
