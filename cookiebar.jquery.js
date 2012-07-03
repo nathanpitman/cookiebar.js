@@ -34,9 +34,7 @@ $(document).ready(function () {
 		if (!cb_vis()) {
 			
 			// Append/prepend the cookiebar CSS and content to the document
-			
 			var bodyMargin = parseInt($("body").css("margin-top")+38);
-			console.log(bodyMargin);
 			$('body').css('margin-top',bodyMargin+'px !important');
 			
 			$('body').addClass('cb');
