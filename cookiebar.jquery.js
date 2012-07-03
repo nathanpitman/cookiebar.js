@@ -36,10 +36,10 @@ $(document).ready(function () {
 			// Append/prepend the cookiebar CSS and content to the document
 			var bodyMarginTop = (parseInt($("body").css("margin-top"))+38);
 			var bodyBackgroundPos = $("body").css('backgroundPosition').split(" ");
-			var xPos = backgroundPos[0], yPos = backgroundPos[1]+38;
+			var xPos = bodyBackgroundPos[0], yPos = bodyBackgroundPos[1]+38;
 			
 			//console.log(bodyMarginTop);
-			console.log(bodyBackgroundPosY);
+			console.log(yPos);
 			$('body').css('margin-top',bodyMarginTop+'px !important');
 			$('body').css('backgroundPosition', xPos+'px '+yPos+'px')
 			
