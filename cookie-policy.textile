@@ -27,7 +27,7 @@ Our website uses X cookies which fall into 3 basic categories, these are 'esse
 		<td><a href="http://www.google.com/analytics/learn/privacy.html">Google Analytics Privacy Policy</a></td>
 	</tr>
 	<tr>
-		<td><a href="http:expressionengine.com">ExpressionEngine</a></td>
+		<td><a href="http://www.expressionengine.com">ExpressionEngine</a></td>
 		<td>exp_last_activity<br>exp_last_visit<br>exp_tracker</td>
 		<td>Essential - These cookies are used by our website Content Management System to track your session state anonymously. The exp_last_activity and exp_last_visit cookies have a lifetime of 1 year and the exp_tracker session expires when you close your browser window.</td>
 		<td></td>
@@ -57,7 +57,7 @@ Our website uses X cookies which fall into 3 basic categories, these are 'esse
 	</tr>
 	<tr>
 		<td>Microsoft Internet Explorer</td>
-		<td>http://support.microsoft.com/kb/278835</td>
+		<td><a href="http://support.microsoft.com/kb/278835">http://support.microsoft.com/kb/278835</a></td>
 	</tr>
 	<tr>
 		<td>Google Chrome</td>
