@@ -6,8 +6,9 @@ h2.How does this website use cookies?
 
 Our website uses X cookies which fall into 3 basic categories, these are 'essential cookies', 'analytics cookies' and 'functional cookies'.
 
-* Essential Cookies - Some cookies are essential for the operation of our website. For example, some cookies allow the Content Management System we use to track your browsing session and identify you if you are logged in. This ensures that you can access the information you should be able to.
-* Analytics Cookies - We utilise other cookies to analyse how our visitors use our websites and to monitor website performance. This allows us to improve the website and more quickly identify and fix any issues that arise. For example, we might use analytics cookies to keep track of which pages are most popular and to determine why others are not.
+<ol>
+	<li><b>Essential Cookies</b> - Some cookies are essential for the operation of our website. For example, some cookies allow the Content Management System we use to track your browsing session and identify you if you are logged in. This ensures that you can access the information you should be able to.</li>
+	<li><b>Analytics Cookies</b> - We utilise other cookies to analyse how our visitors use our websites and to monitor website performance. This allows us to improve the website and more quickly identify and fix any issues that arise. For example, we might use analytics cookies to keep track of which pages are most popular and to determine why others are not.</li>
 	<li><b>Functionality Cookies</b> - We use functionality cookies to allow us to remember your preferences. For example we may give you the option to have your username remembered if you access a password protected area or recall a preference for information of a particular type on the home page. Third party services such as Twitter, Facebook, Google Plus and AddThis may also write cookies to your computer which may be used 'on' our website to determine if you are logged in to those services should you choose to 'share' content socially.</li>
 </ol>
 
