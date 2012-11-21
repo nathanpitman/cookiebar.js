@@ -22,7 +22,7 @@ $(document).ready(function () {
 	var cb_policy = $("link[rel=cookie-policy]").attr("href");
 	
 	// Image
-	var Img = "assets/dismiss.png";
+	var Img = "";
 
 	// Check if a policy URL is specified
 	if (cb_policy) {
@@ -32,7 +32,9 @@ $(document).ready(function () {
 		
 			var data = new Image();
 			data.onload = data.onerror = function(){
-				if(this.width == 1 || this.height == 1){
+				if(this.width != 1 || this.height != 1){
+					Img = "assets/dismiss.png";
+				} else {
 					Img = data.src;
 				}
 			}
