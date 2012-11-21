@@ -33,7 +33,7 @@ $(document).ready(function () {
 			var data = new Image();
 			data.onload = data.onerror = function(){
 				if(this.width != 1 || this.height != 1){
-					Img = "assets/dismiss.png";
+					Img = "https://raw.github.com/ninefour/cookiebar.js/master/assets/dismiss.png";
 				} else {
 					Img = data.src;
 				}
